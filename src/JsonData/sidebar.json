@@ -1,0 +1,96 @@
+[
+    {
+        "name": "home",
+        "title": "Dashboard",
+        "short_title": "Home",
+        "href": "/",
+        "link": {
+            "name": "/"
+        },
+        "icon_class": "las la-home iq-arrow-left"
+    },
+    {
+        "name": "folders",
+        "title": "Folders",
+        "href": "#folders",
+        "link": {
+            "name": ""
+        },
+        "class_name": "",
+        "icon_class": "las la-boxes",
+        "expanded_icon_class": "las la-angle-down iq-arrow-right arrow-hover",
+        "collapse_icon_class": "las la-angle-right iq-arrow-right arrow-active",
+        "children": [
+            {
+                "name": "folder-1",
+                "title": "Folder 1",
+                "href": "folder-1",
+                "link": {
+                    "name": "folder"
+                },
+                "class_name": "",
+                "icon_class": "las la-object-group"
+            }
+        ]
+    },
+    {
+        "name": "recent",
+        "title": "Recent",
+        "short_title": "recent",
+        "href": "recent",
+        "link": {
+            "name": "recent"
+        },
+        "icon_class": "las la-stopwatch iq-arrow-left"
+    },
+    {
+        "name": "images",
+        "title": "Images",
+        "href": "images",
+        "link": {
+            "name": "images"
+        },
+        "class_name": "",
+        "icon_class": "las la-image"
+    },
+    {
+        "name": "media",
+        "title": "Media",
+        "href": "media",
+        "link": {
+            "name": "media"
+        },
+        "class_name": "",
+        "icon_class": "las la-photo-video"
+    },
+    {
+        "name": "files",
+        "title": "Files",
+        "short_title": "files",
+        "href": "files",
+        "link": {
+            "name": "files"
+        },
+        "icon_class": "lar la-file-alt iq-arrow-left"
+    },
+    {
+        "name": "favourites",
+        "title": "Favourites",
+        "short_title": "favourites",
+        "href": "favourites",
+        "link": {
+            "name": "favourites"
+        },
+        "icon_class": "lar la-star"
+    },
+    {
+        "name": "trash",
+        "title": "Trash",
+        "short_title": "trash",
+        "href": "trash",
+        "link": {
+            "name": "trash"
+        },
+        "icon_class": "las la-trash-alt iq-arrow-left"
+    }
+]
